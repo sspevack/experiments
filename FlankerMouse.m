@@ -1,4 +1,5 @@
 
+try  
 % clear and close all
 close all; 
 clc;
@@ -57,5 +58,7 @@ pause(.5)
 KbWait();  
 
 
-%Clear screen
+catch ME 
+end
+
 sca 
