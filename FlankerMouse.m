@@ -1,5 +1,3 @@
-
-try  
 % clear and close all
 close all; 
 clc;
@@ -57,8 +55,5 @@ Screen('Flip', Window);
 pause(.5)
 KbWait();  
 
-
-catch ME 
-end
 
 sca 
